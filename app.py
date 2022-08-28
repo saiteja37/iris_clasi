@@ -23,4 +23,4 @@ with col4:
 if st.button("predict Probabibilty"):
     prediction=pipe.predict([[sepal_length,sepal_width,petal_length,petal_width]])
     st.title("Specie is "+prediction)
-st.text("DESIGNED BY :  KANDADI SAI TEJA")
+st.text("DESIGNED BY :SOLO_DRAGON AKA  KANDADI SAI TEJA")
