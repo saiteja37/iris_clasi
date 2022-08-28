@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 st.title("Iris Classification")
 pipe=pickle.load(open("iris.pkl","rb"))
-df=pd.read_csv("iris.csv")
+df=pd.read_csv("Iris.csv")
 sepal_len=sorted(df["SepalLengthCm"].unique())
 sepal_wid=sorted(df["SepalWidthCm"].unique())
 petal_len=sorted(df["PetalLengthCm"].unique())
